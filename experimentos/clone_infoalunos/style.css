@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main {
+    background-color: #0282B6;
+    border-radius: 5px;
+    width: 610px;
+    height: 540px;
+    margin: auto;
+    margin-top: 80px;
+    display: block;
+}
+
+img {
+    width: 165px;
+    height: 55;
+    margin-top: 55px;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: right;
+    margin: -10px, 104px, 0px, 0px;
+}
