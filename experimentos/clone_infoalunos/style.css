@@ -3,6 +3,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 main {
@@ -13,24 +15,52 @@ main {
     margin: auto;
     margin-top: 80px;
     display: block;
+    padding-top: 50px;
 }
 
 img {
-    width: 165px;
-    height: 55;
-    margin-top: 55px;
-}
-
-div {
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 
 h1 {
     text-align: center;
+    font-weight: normal;
 }
 
-a {
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+form > input {
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form > button {
+    background-color: #0282B6;
+    color: white;
+    border: solid 2px white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+form > a {
     display: block;
     text-align: right;
-    margin: -10px, 104px, 0px, 0px;
+    margin-top: 40px;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width:630px) {
+    main {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+    }
 }
