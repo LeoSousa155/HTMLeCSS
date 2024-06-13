@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: "Roboto", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h1#titulo-a-esquerda {
+    text-align: left;
+    margin-left: 20vw;
+}
+
+header {
+    background-color: #111111;
+    padding: 10px;
+}
+
+header > img {
+    display: block;
+    margin-bottom: 5px;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-weight: bold;
+}
+
+header > a:hover {
+    color: #757575;
+}
+
+section.texto {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section.texto > p {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+section#locais-treino {
+    text-align: center;
+}
+
+a.local-treino {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 12px;
+    outline: 2px solid white;
+    outline-offset: -5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: var(--fonte1);
+}
+
+a.local-treino:hover {
+    background-color: #444444;
+}
+
+img#logo-contatos {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+}
+
+img.logo-redes {
+    width: 40px;
+    height: 40px;
+}
+
+p.redes {
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+p.redes > a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer > img {
+    width: 60vw;
+}
+
+footer > p {
+    margin-bottom: 50px;
+}
+
+
+section.imagem {
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img1 {
+    background-image: url("imagens/CKDFbackground1.png");
+}
+
+section#img2 {
+    background-image: url("imagens/CKDFbackground2.png");
+}
+
+section#img3 {
+    background-image: url("imagens/CKDFbackground3.png");
+}
+
+section#img4 {
+    background-image: url("imagens/CKDFbackground4.png");
+}
