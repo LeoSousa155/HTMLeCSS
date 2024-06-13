@@ -27,10 +27,16 @@ h1#titulo-a-esquerda {
 header {
     background-color: #111111;
     padding: 10px;
+    text-align: center;
+}
+
+header > p {
+    color: white;
 }
 
 header > img {
     display: block;
+    margin: auto;
     margin-bottom: 5px;
 }
 
