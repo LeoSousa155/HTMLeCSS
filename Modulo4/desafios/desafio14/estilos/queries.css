@@ -14,6 +14,7 @@
 
     section#login {
         width: 80vw;
+        height: 70vh;
     }
 
     section#login > div#imagem {
@@ -36,6 +37,7 @@
 
     section#login {
         width: 990px;
+        height: 70vh;
     }
 
     section#login > div#imagem {
