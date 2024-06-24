@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Sudeste">
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="São Paulo">São paulo</option>
+                </optgroup>
+
+                <optgroup label="Nordeste">
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Rio grande do norte">Rio grande do norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="oprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">administrador</option>
+                <option value="DEV">desenvolvedor</option>
+                <option value="PROF">professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imen">Mensagem: </label><br>
+            <textarea name="mensagem" id="imen" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
