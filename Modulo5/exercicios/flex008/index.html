@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        div.container {
+            background-color: lightsalmon;
+            display: flex;
+            height: 200px;
+            align-items: flex-start;
+        }
+
+        div.item {
+            margin: 5px;
+            padding: 10px;
+            background-color: lightblue;
+        }
+        
+        #first {
+            align-self: flex-start;
+            transition: align-self 1s;
+        }
+
+        #first:hover {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="first">A</div>
+        <div class="item" style="align-self: flex-end;">B</div>
+        <div class="item" style="align-self: auto;">C</div>
+        <div class="item" style="align-self: center;">D</div>
+        <div class="item" style="align-self: stretch;">E</div>
+    </div>
+</body>
+</html>
